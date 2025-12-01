@@ -29,10 +29,12 @@ class person:
         return cls(pid,pname,page)
 
 person.read()
-vc = input("Enter a string: ")
-v = stringOP.volcount(vc)
-print("Vovel count: ",v)
-if stringOP.charexist(vc):
+
+
+stri = input("Enter a string: ")
+ct = stringOP.volcount(stri)
+print("Vovel count: ",ct)
+if stringOP.charexist(stri):
     print("Exists")
 else:
     print("Does not exists")
